@@ -1,0 +1,24 @@
+{
+   "type": "mysql",
+   "host": "mysql5044.site4now.net",
+   "port": 3306,
+   "username": "a6fa8c_sport",
+   "password": "xVwuT7w5qaom",
+   "database": "db_a6fa8c_sport",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
